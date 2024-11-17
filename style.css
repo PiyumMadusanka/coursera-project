@@ -1,0 +1,281 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Nav bar style */
+.nav_bar{
+    background-color: #8a2be2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    padding-right: 3px;
+}
+
+.profile_name{
+    color: white;
+}
+
+.profile_name > h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile_name .row > span{
+    margin: 2px;
+    font-size: 12px;
+
+}
+.nav_link{
+    color: white;
+}
+
+.nav_link > ul {
+    list-style-type: none;
+}
+
+.nav_link ul li {
+    padding-right: 25px;
+}
+
+.nav_link ul li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/* About me section style */
+
+.container{
+    margin: 25px;
+    padding: 10px;
+}
+
+.profile_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_container .profile_image > img{
+    height:350px;
+    width: auto;
+}
+
+.profile_description{
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    color: #8a2be2;
+    font-size: 28px;
+}
+
+.profile_description .row > h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile_description > p {
+    color: black;
+    font-size: 18px;
+}
+
+.wave_icon{
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #8a2be2;
+}
+
+/* Skill section style */
+
+#skill{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#skill > h1{
+    margin: 0;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+
+}
+
+.card-container > .card{
+    width: 180px;
+    height: 160px;
+    margin: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card > img{
+    width: 45px;
+    padding-top: 15px ;
+}
+
+/* Project section style */
+
+.project-card {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.project-card li ul {
+    list-style-type: disc;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card li ul li {
+    font-size: 13px;
+}
+
+.sperate {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: #ddd;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+/* recommendation section style */
+
+.recommendation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.recommendation .box{
+     border: solid 1px;
+    border-color: black;
+    width: 28%;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px; 
+    font-weight: bolder;
+}
+
+.recommendation .box:last-child {
+    margin-right: auto;
+}
+
+.recommendation-new{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content:center;
+    width: 60%;
+    margin: auto;
+}
+
+.recommendation-new h2{
+    width: 100%;
+}
+
+.recommendation-new input {
+    margin-bottom: 15px;
+}
+
+.recommendation-new textarea {
+    margin-bottom: 15px;
+}
+
+.recommendation-new button {
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    justify-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #8a2be2;
+    font-weight: bold;
+    font-size: 16px;
+    color: #8a2be2;
+}
+
+.recommendation-new button:hover {
+    cursor: pointer;
+}
+
+/* style message popup */
+
+.message{
+    position: fixed;
+    top: 30%;
+    width: 300px;
+    padding: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f3c4f3;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 100;
+    display: none;
+}
+
+.message img {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.message button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a300a3;
+    background-color: white;
+    border: 2px solid #a300a3;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* style home icon */
+
+.home-icon{
+    justify-content: end;
+}
